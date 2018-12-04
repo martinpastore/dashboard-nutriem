@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30c8051-2d90-405f-9a84-377c88450cfe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/endpoints.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,7 +44,7 @@
         <counts>
           <entry key="css" value="208" />
           <entry key="html" value="313" />
-          <entry key="js" value="594" />
+          <entry key="js" value="655" />
           <entry key="json" value="4" />
         </counts>
       </usages-collector>
@@ -52,7 +53,7 @@
           <entry key="CSS" value="208" />
           <entry key="HTML" value="313" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="594" />
+          <entry key="JavaScript" value="655" />
         </counts>
       </usages-collector>
     </session>
@@ -159,7 +160,7 @@
             <entry file="file://$PROJECT_DIR$/server/endpoints.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="207">
-                  <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+                  <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -329,12 +330,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543926281468</updated>
       <workItem from="1543926282979" duration="3576000" />
-      <workItem from="1543962918097" duration="2143000" />
+      <workItem from="1543962918097" duration="2358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5719000" />
+    <option name="totallyTimeSpent" value="5934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -450,7 +451,7 @@
     <entry file="file://$PROJECT_DIR$/server/endpoints.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
