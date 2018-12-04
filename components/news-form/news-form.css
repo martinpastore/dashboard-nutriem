@@ -1,0 +1,23 @@
+.news-form {
+
+}
+
+.news-form label {
+    color: #ff9933;
+}
+
+.btn.btn-primary {
+    background-color: #ABD73E;
+    border-color: #ABD73E;
+}
+
+.news-form .form-group,
+.news-form  .input-group {
+    padding: 1rem 0;
+}
+
+.news-form .input-group-prepend .input-group-text {
+    background-color: #ABD73E;
+    border-color: #ABD73E;
+    color: #fff;
+}

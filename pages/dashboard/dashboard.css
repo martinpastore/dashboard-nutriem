@@ -1,0 +1,8 @@
+.dashboard {
+}
+
+.dashboard__news {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 150px;
+}
