@@ -1,0 +1,15 @@
+{
+  "title": "NutriEM - Asesoramiento en Nutrición",
+  "scripts": [
+    "jquery-3.3.1.min.js",
+    "bootstrap.bundle.js"
+  ],
+  "styles": [
+    "global.css",
+    "bootstrap.css",
+    "bootstrap-grid.css",
+    "bootstrap-reboot.css"
+  ],
+  "pages": "pages",
+  "components": "components"
+}

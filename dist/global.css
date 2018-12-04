@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Quicksand-Regular;
+    src: url(../assets/fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Bold;
+    src: url(../assets/fonts/Quicksand-Bold.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Medium;
+    src: url(../assets/fonts/Quicksand-Medium.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Light;
+    src: url(../assets/fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+    font-family: Quicksand-Italic;
+    src: url(../assets/fonts/Quicksand-Italic.otf);
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    font-family: Quicksand-Regular;
+}
+
+body {
+    background-image: url(../assets/images/square-2721757_1280.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hide {
+    display: none;
+}
+
+.wrapper {
+    font-family: Quicksand-Bold;
+}
+
+.title {
+    color: #ff9933;
+}
