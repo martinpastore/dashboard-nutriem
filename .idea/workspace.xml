@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a30c8051-2d90-405f-9a84-377c88450cfe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/components/news-form/news-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/news-form/news-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/endpoints.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,7 +43,7 @@
         <counts>
           <entry key="css" value="208" />
           <entry key="html" value="313" />
-          <entry key="js" value="519" />
+          <entry key="js" value="536" />
           <entry key="json" value="4" />
         </counts>
       </usages-collector>
@@ -52,7 +52,7 @@
           <entry key="CSS" value="208" />
           <entry key="HTML" value="313" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="519" />
+          <entry key="JavaScript" value="536" />
         </counts>
       </usages-collector>
     </session>
@@ -100,8 +100,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/components/news-form/news-form.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="14" selection-start-column="14" selection-end-column="14" />
+                <state relative-caret-position="529">
+                  <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
                 </state>
               </provider>
             </entry>
@@ -155,16 +155,16 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server/endpoints.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="230">
-                  <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+                  <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/components/news-form/news-form.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="46">
@@ -201,8 +201,8 @@
         <option value="$PROJECT_DIR$/server/routes.js" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/components/news-form/news-form.html" />
-        <option value="$PROJECT_DIR$/server/endpoints.js" />
         <option value="$PROJECT_DIR$/components/news-form/news-form.js" />
+        <option value="$PROJECT_DIR$/server/endpoints.js" />
       </list>
     </option>
   </component>
@@ -329,12 +329,12 @@
       <option name="presentableId" value="Default" />
       <updated>1543926281468</updated>
       <workItem from="1543926282979" duration="3576000" />
-      <workItem from="1543962918097" duration="1445000" />
+      <workItem from="1543962918097" duration="1686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5021000" />
+    <option name="totallyTimeSpent" value="5262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -433,24 +433,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/news-form/news-form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/components/news-form/news-form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        <state relative-caret-position="529">
+          <caret line="20" column="64" lean-forward="true" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/endpoints.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/news-form/news-form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
