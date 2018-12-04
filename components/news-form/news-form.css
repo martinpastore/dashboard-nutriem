@@ -21,3 +21,9 @@
     border-color: #ABD73E;
     color: #fff;
 }
+
+@media screen and (max-width: 575px) {
+    .news-form {
+        padding: 0 1rem;
+    }
+}
