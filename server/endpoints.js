@@ -5,8 +5,8 @@ exports.saveNews = function(req, res) {
     client.set('news', req.body, redis.print);
     client.get('news', function (error, result) {
         if (error) {
-            res.json(JSON.stringify(error));
+            res.json(JSON.parse(error));
         }
-        res.json(JSON.stringify(result));
+        res.json(JSON.parse(result));
     });
 };
