@@ -1,8 +1,10 @@
 require('dotenv').config(); // read .env files
 const express = require('express');
 const bodyParser = require('body-parser');
+const client = require('redis').createClient(process.env.REDIS_URL);
 
-const app = express();
+
+const app = express()
 const port = process.env.PORT || 3009;
 
 const allowCrossDomain = function(req, res, next) {
