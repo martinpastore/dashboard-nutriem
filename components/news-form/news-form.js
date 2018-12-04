@@ -1,5 +1,6 @@
 $('#news').submit(function (e){
     e.preventDefault();
+    e.stopPropagation();
 
     const form = e.currentTarget.id;
 
