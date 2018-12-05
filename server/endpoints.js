@@ -1,9 +1,11 @@
 require('dotenv').config(); // read .env files
 const client = require('redis').createClient(process.env.REDIS_URL);
 const async = require('async');
+const rand = require("random-key");
 
 exports.saveNews = function(req, res) {
-    client.set(`key${Math.random(0, 1000)}`, 'bla');
+    let data = JSON.stringify(req.body);
+    client.set(rand.generate(), data);
     client.keys('*', function (err, keys) {
         if (err) return console.log(err);
         if(keys){
@@ -14,7 +16,6 @@ exports.saveNews = function(req, res) {
                 });
             }, function (error, results) {
                 if (error) return console.log(error);
-                console.log(results);
                 res.json({data:results});
             });
         }
