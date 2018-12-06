@@ -19,7 +19,8 @@ app.use(allowCrossDomain);
 // Set public folder as root
 app.use(express.static('dist'));
 
-app.use(bodyParser.json());
+app.use(bodyParser.json({limit:1024102420000, type:'application/json'}));
+app.use(bodyParser.urlencoded({limit: 1024102420000, extended: true, parameterLimit:500000}));
 
 // Allow front-end access to node_modules folder
 app.use('/scripts', express.static(`${__dirname}/node_modules/`));

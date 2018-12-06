@@ -15,8 +15,8 @@ exports.saveNews = function(req, res) {
                     cb(null, value)
                 });
             }, function (error, results) {
-                if (error) return console.log(error);
-                res.json({data:results});
+                if (error) res.status(500).json({message: 'Algo falló. Volve a intentar!', class: 'failed'});
+                res.status(200).json({message: 'Subido con éxito!', class: 'success'});
             });
         }
     });
