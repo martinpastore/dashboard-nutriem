@@ -12,4 +12,5 @@ exports.saveNews = function(req, res) {
             res.status(200).json({message: 'Subido con éxito!', class: 'success'});
         });
     });
+
 };

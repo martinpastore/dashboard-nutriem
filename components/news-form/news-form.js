@@ -2,6 +2,8 @@ $('#news').submit(function (e){
     e.preventDefault();
     e.stopPropagation();
 
+    $('#message').text('Imagen');
+
     const form = e.currentTarget.id;
     getBase64($('#inputImagen')[0].files[0])
         .then((data) => {
@@ -17,6 +19,7 @@ $('#news').submit(function (e){
                     data = JSON.parse(data);
                     $('#message').addClass(data.class);
                     $('#message').text(data.message);
+                    cleanFields();
                 })
                 .catch(function (error) {
                     error = JSON.parse(error);
@@ -59,4 +62,11 @@ function getDate() {
 function replaceBreakLines() {
     const str = $('#inputContenido').val().replace(/(?:\r\n|\r|\n)/g, '<br>');
     return str;
+}
+
+function cleanFields() {
+    $('#inputImagen').val('');
+    $('.custom-file-label').text('');
+    $('#inputContenido').val('');
+    $('#inputTitulo').val('');
 }
