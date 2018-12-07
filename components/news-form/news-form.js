@@ -2,7 +2,7 @@ $('#news').submit(function (e){
     e.preventDefault();
     e.stopPropagation();
 
-    $('#message').text('Imagen');
+    $('#message').text('');
 
     const form = e.currentTarget.id;
     getBase64($('#inputImagen')[0].files[0])
@@ -66,7 +66,7 @@ function replaceBreakLines() {
 
 function cleanFields() {
     $('#inputImagen').val('');
-    $('.custom-file-label').text('');
+    $('.custom-file-label').text('Imagen');
     $('#inputContenido').val('');
     $('#inputTitulo').val('');
 }
