@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a30c8051-2d90-405f-9a84-377c88450cfe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/news-form/news-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/news-form/news-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/endpoints.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/endpoints.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,7 +45,7 @@
         <counts>
           <entry key="css" value="298" />
           <entry key="html" value="487" />
-          <entry key="js" value="1910" />
+          <entry key="js" value="1993" />
           <entry key="json" value="4" />
         </counts>
       </usages-collector>
@@ -54,7 +54,7 @@
           <entry key="CSS" value="298" />
           <entry key="HTML" value="487" />
           <entry key="JSON" value="4" />
-          <entry key="JavaScript" value="1910" />
+          <entry key="JavaScript" value="1993" />
         </counts>
       </usages-collector>
     </session>
@@ -157,19 +157,19 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/server/endpoints.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
+                <state relative-caret-position="345">
+                  <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/components/news-form/news-form.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="253">
+                <state relative-caret-position="146">
                   <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
                 </state>
               </provider>
@@ -203,8 +203,8 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/components/news-form/news-form.css" />
         <option value="$PROJECT_DIR$/components/news-form/news-form.html" />
-        <option value="$PROJECT_DIR$/server/endpoints.js" />
         <option value="$PROJECT_DIR$/components/news-form/news-form.js" />
+        <option value="$PROJECT_DIR$/server/endpoints.js" />
       </list>
     </option>
   </component>
@@ -335,12 +335,12 @@
       <workItem from="1544014134031" duration="1370000" />
       <workItem from="1544018272795" duration="479000" />
       <workItem from="1544099829687" duration="3015000" />
-      <workItem from="1544181911647" duration="63000" />
+      <workItem from="1544181911647" duration="673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12602000" />
+    <option name="totallyTimeSpent" value="13212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -446,17 +446,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/endpoints.js">
+    <entry file="file://$PROJECT_DIR$/components/news-form/news-form.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="99" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="99" />
+        <state relative-caret-position="146">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/news-form/news-form.js">
+    <entry file="file://$PROJECT_DIR$/server/endpoints.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        <state relative-caret-position="345">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
