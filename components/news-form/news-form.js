@@ -9,7 +9,7 @@ $('#news').submit(function (e){
                 fecha: getDate(),
                 image: data,
                 titulo: $('#inputTitulo').val(),
-                contenido: $('#inputContenido').val()
+                contenido: replaceBreakLines()
             };
 
             httpRequest('POST', '/news', news)
@@ -54,4 +54,9 @@ function getDate() {
     }
     today = dd + '/' + mm + '/' + yyyy;
     return today;
+}
+
+function replaceBreakLines() {
+    const str = $('#inputContenido').val().replace(/(?:\r\n|\r|\n)/g, '<br>');
+    return str;
 }
