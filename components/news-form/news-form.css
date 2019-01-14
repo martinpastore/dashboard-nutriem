@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.news-form__button.italic {
+    padding: .5rem 1rem;
+}
+
 @media screen and (max-width: 575px) {
     .news-form {
         padding: 0 1rem;
